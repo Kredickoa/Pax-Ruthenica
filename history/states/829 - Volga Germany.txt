@@ -2,7 +2,7 @@
 state = {
 	id = 829
 	name = "STATE_829" #Volga Germany
-	manpower = 618530
+	manpower = 718530
 	
 	state_category = rural
 	
@@ -15,6 +15,7 @@ state = {
 		owner = SOV
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 		}
 		add_core_of = SOV
 		add_core_of = VGE
@@ -27,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		3517 3518 6479 6506 6539 6575 6601 9432 9475 11395 11460 11523 
+		520 3503 3517 6541 6479   6575 6601 9432 9530  11395 11460 11474 11484 11523 
 	}
 
 	local_supplies = 9.0 

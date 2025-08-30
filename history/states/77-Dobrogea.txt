@@ -2,7 +2,7 @@
 state={
 	id=77
 	name="STATE_77"
-	manpower = 378000
+	manpower = 678000
 	
 	state_category = rural
 
@@ -10,17 +10,22 @@ state={
 		victory_points = {
 			11597 1
 		}
-		owner = ROM
+		owner = BUL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+			657 = {
+				naval_base = 8
+			}
+			
+			dockyard = 1
 		}
-		add_core_of = ROM
-		add_claim_by = BUL
+		add_core_of = BUL
+		add_claim_by = ROM
 	}
 
 	provinces={
-		9614 11597 
+		9614 11597 657 9635
 	}
 
 	local_supplies=1.0 

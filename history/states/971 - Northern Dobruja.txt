@@ -1,7 +1,7 @@
 state = {
 	id = 971
 	name = "STATE_971" # Northern Dobruja
-	manpower = 490000
+	manpower = 200000
 	resources = {
 	}
 
@@ -9,7 +9,7 @@ state = {
 
 	history = {
 
-		owner = ROM
+		owner = UKR
 		add_core_of = ROM
 		add_claim_by = BUL
 
@@ -20,19 +20,16 @@ state = {
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			657 = {
-				naval_base = 8
-			}
+			
 			687 = {
 				naval_base = 1
 			}
-			dockyard = 1
 		}
 		
 	}
 
 	provinces = {
-		657 9635 3076 687
+		 3076 687
 	}
 
 	local_supplies = 0.0 
